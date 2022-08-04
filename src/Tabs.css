@@ -41,3 +41,28 @@
     border-bottom-right-radius: 40%;
     z-index: -1;
 }
+
+
+@media screen and (max-width:600px) {
+    .tab_kids{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tab_kids p{
+        font-weight: 500;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .special_div2{
+        width: 80%;
+        position: absolute;
+        top : 1360px;
+        left: 0;
+        height: 240px;
+        background-color: hsl(231, 69%, 60%);
+        border-bottom-right-radius: 40%;
+        z-index: -1;
+    }
+}

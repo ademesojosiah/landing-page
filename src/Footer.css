@@ -60,3 +60,18 @@
     background-color: #fff;
     border: 2px solid hsl(0, 94%, 66%);
 }
+
+@media screen and (max-width:600px) {
+    .footer_details{
+        width: 100%;
+    }
+
+    .footer_details div{
+        flex-direction: column;
+    }
+
+    .footer_details div input , .footer_details div button{
+        width: 100%;
+        max-width: 100%;
+    }
+}

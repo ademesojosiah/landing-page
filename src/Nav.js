@@ -1,6 +1,7 @@
 import React from 'react';
 import './Nav.css';
 import bookmarkLogo from './svgs/logo-bookmark.svg';
+import Ham from './svgs/icon-hamburger.svg'
 
 
 const Nav = () => {
@@ -13,6 +14,7 @@ const Nav = () => {
             <a href="/">CONTACT</a>
             <a href="/"><button>LOGIN</button></a>
         </div>
+        <img className='ham_burger' src={Ham} alt="" />
       
     </nav>
   )

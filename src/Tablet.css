@@ -42,7 +42,41 @@
 
 
 
+
 .tablet_details{
     margin-left: 100px;
 }
+
+
+
+@media screen and (max-width:600px) {
+    .tablet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tablet_image img{
+        object-fit: contain;
+        width: 360px;
+    }
+    .tablet_details{
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+
+    .tablet_details button{
+        display: none;
+    }
+
+    .tablet_details h2 , .tablet_details p{
+        text-align: center;
+    }
+    
+}
+
+
+
+
 

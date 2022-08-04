@@ -8,6 +8,9 @@ nav{
     color: hsl(229, 31%, 21%) ;
 
 }
+.ham_burger{
+    display: none;
+}
 
 nav .menu a{
     font-size: 1rem;
@@ -37,4 +40,14 @@ nav .menu a button:hover{
     border:2px solid  hsl(0, 94%, 66%);
     background-color:#fff ;
     color: hsl(0, 94%, 66%);
+}
+
+@media screen and (max-width:600px) {
+    nav .menu{
+        display: none;
+    }
+
+    .ham_burger{
+        display: block;
+    }
 }
