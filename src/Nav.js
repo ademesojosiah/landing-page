@@ -1,6 +1,6 @@
 import React from 'react';
 import './Nav.css';
-import bookmarkLogo from './svgs/logo-bookmark.svg'
+import bookmarkLogo from './svgs/logo-bookmark.svg';
 
 
 const Nav = () => {

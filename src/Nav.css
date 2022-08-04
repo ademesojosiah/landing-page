@@ -17,6 +17,10 @@ nav .menu a{
     color: hsl(229, 31%, 21%) ;
 }
 
+nav .menu a:hover{
+    color:hsl(0, 94%, 66%) ;
+}
+
 nav .menu a button{
     cursor: pointer;
     box-shadow: 0px 2px 3px grey;
@@ -27,4 +31,10 @@ nav .menu a button{
     border: none;
     background-color:hsl(0, 94%, 66%) ;
     color: #fff;
+}
+
+nav .menu a button:hover{
+    border:2px solid  hsl(0, 94%, 66%);
+    background-color:#fff ;
+    color: hsl(0, 94%, 66%);
 }
