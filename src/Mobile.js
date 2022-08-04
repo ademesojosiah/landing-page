@@ -7,7 +7,7 @@ import twitter from './svgs/icon-twitter.svg'
 const Mobile = () => {
   return (
     <div className='mobile'>
-        <div className='mobile_nav'><img src={bookmark} alt="" /><p>X</p></div>
+        <div className='mobile_nav'><img src={bookmark} alt="" /><p >X</p></div>
         <div className='mobile_menu'>
             <a href="">FEATURES</a>
             <a href="">PRICING</a>
