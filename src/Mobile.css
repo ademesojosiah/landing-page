@@ -1,0 +1,16 @@
+.mobile{
+    padding-left: 5%;
+    padding-right: 5%;
+    position: absolute;
+    height: 100vh;
+    background-color: hsla(229, 31%, 21%, 0.79);
+}
+
+.mobile_nav{
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}

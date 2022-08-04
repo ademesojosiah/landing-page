@@ -7,11 +7,13 @@ import FlexBoxes from './FlexBoxes';
 import Faqs from './Faqs';
 import Main from './Main';
 import Footer from './Footer';
-import FooterNav from './FooterNav'
+import FooterNav from './FooterNav';
+// import Mobile from './Mobile';
 
 function App() {
   return (
     <div className="app">
+      {/* <Mobile /> */}
       <Main>
         <Nav />
         <About />
