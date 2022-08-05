@@ -8,12 +8,16 @@ import Faqs from './Faqs';
 import Main from './Main';
 import Footer from './Footer';
 import FooterNav from './FooterNav';
-// import Mobile from './Mobile';
+import { useSelector } from 'react-redux/es/hooks/useSelector';
+import Mobile from './Mobile';
+
 
 function App() {
+  const change = useSelector((state)=>state.button.we);
   return (
     <div className="app">
-      {/* <Mobile /> */}
+      {change && <Mobile />}
+      <h1>{change}</h1>
       <Main>
         <Nav />
         <About />

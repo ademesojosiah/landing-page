@@ -9,6 +9,7 @@ nav{
 
 }
 .ham_burger{
+    cursor: pointer;
     display: none;
 }
 
