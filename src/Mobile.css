@@ -1,6 +1,7 @@
 .mobile{
     top: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     padding-left: 5%;
     padding-right: 5%;
     position: absolute;

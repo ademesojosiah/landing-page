@@ -1,14 +1,12 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Nav.css';
 import bookmarkLogo from './svgs/logo-bookmark.svg';
-import Ham from './svgs/icon-hamburger.svg';
-import Mobile from './Mobile';
+import Ham from './svgs/icon-hamburger.svg'
 
 
 const Nav = () => {
-    const [mobile,setmobile] = useState(null)
   return (
-    <nav className='nav'>{mobile && <Mobile /> }
+    <nav className='nav'>
         <div className="log"><img src={bookmarkLogo} alt="" /></div>
         <div className="menu">
             <a href="/">FEATURES</a>
@@ -16,8 +14,7 @@ const Nav = () => {
             <a href="/">CONTACT</a>
             <a href="/"><button>LOGIN</button></a>
         </div>
-        <img onClick={()=>setmobile(true)} className='ham_burger' src={Ham} alt="" />
-        
+        <img  className='ham_burger' src={Ham} alt="" />
       
     </nav>
   )
