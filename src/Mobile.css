@@ -12,11 +12,19 @@
 
 .mobile_nav{
     color: #fff;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: space-between;
 
+}
+
+.mobile_nav p{
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .mobile_menu{
