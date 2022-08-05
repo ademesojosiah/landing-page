@@ -8,7 +8,7 @@ import Faqs from './Faqs';
 import Main from './Main';
 import Footer from './Footer';
 import FooterNav from './FooterNav';
-import Mobile from './Mobile';
+// import Mobile from './Mobile';
 
 function App() {
   return (
